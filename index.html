@@ -1,0 +1,1691 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="container" style="background-color:#333333">
+        <!-- logo -->
+        <div id="logo" class="topBar" >
+            <div class="topBarLeftContant">
+                <img class="logoImage" alt="Logo de Cactuseros.com" src="Img/CactuserosLogo.jpg" />
+            </div>
+            <div class="topBarRightContant">
+                <div class="buttonsHolder">
+                    <a href="#" onclick="pedirLogin();return false;" class="form-sub tagline-action loginButtons" style="font-size:15px;"><p>Login</p></a>
+                    &nbsp;
+                    <a href="#" onclick="crearCuenta();return false;" class="form-sub tagline-action loginButtons" style="font-size:15px;"><p>Sign up</p></a>
+                </div>
+                <div class="languageHolder">
+                    <div class="languageLinks">
+
+                        <a href="#" class="flagLinks"><img src="https://images.cactuseros.com/assets/img_0001/Banderas/10000.png" alt="Español" title="Español" /></a>
+                        <a href="#" class="flagLinks"><img src="https://images.cactuseros.com/assets/img_0001/Banderas/10005.png" alt="English" title="English" /></a>
+                        <a href="#" class="twitter-follow-button twiterLink" data-show-count="false">Follow @Cactuseros</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="background-color:#60a318">
+              <!-- Navbar -->
+              <div class="w3-bar w3-black w3-card">
+                  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                  <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+                  <div class="w3-dropdown-hover w3-hide-small">
+                      <button class="w3-padding-large w3-button" title="Photos">Photos <i class="fa fa-caret-down"></i></button>
+                      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">Latest BLOOMS</a>
+                          <a href="#" class="w3-bar-item w3-button">Latest WITH SPINES</a>
+                          <a href="#" class="w3-bar-item w3-button">Latest WITHOUT SPINES</a>
+                          <a href="#" class="w3-bar-item w3-button">Most POPULAR</a>
+                          <a href="#" class="w3-bar-item w3-button">Latest from FRIENDS</a>
+                      </div>
+                  </div>
+                  <div class="w3-dropdown-hover w3-hide-small">
+                      <button class="w3-padding-large w3-button" title="Seed Exchange">Seed Exchange <i class="fa fa-caret-down"></i></button>
+                      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">My Seeds</a>
+                          <a href="#" class="w3-bar-item w3-button">Seeds Available</a>
+                          <a href="#" class="w3-bar-item w3-button">My Exchanges</a>
+                      </div>
+                  </div>
+                  <div class="w3-dropdown-hover w3-hide-small">
+                      <button class="w3-padding-large w3-button" title="Identification">Identification <i class="fa fa-caret-down"></i></button>
+                      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">Identify your cactus</a>
+                          <a href="#" class="w3-bar-item w3-button">Unidentified</a>
+                          <a href="#" class="w3-bar-item w3-button">Recently Identified</a>
+                          <a href="#" class="w3-bar-item w3-button">Doubtful Identifications</a>
+                      </div>
+                  </div>
+                  <div class="w3-dropdown-hover w3-hide-small">
+                      <button class="w3-padding-large w3-button" title="Collectors">Collectors <i class="fa fa-caret-down"></i></button>
+                      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">See Listing</a>
+                          <a href="#" class="w3-bar-item w3-button">Ranking</a>
+
+                      </div>
+                  </div>
+                  <div class="w3-dropdown-hover w3-hide-small">
+                      <button class="w3-padding-large w3-button" title="Contest">Contest <i class="fa fa-caret-down"></i></button>
+                      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">Current Month's Participants</a>
+                          <a href="#" class="w3-bar-item w3-button">Previous Winners</a>
+                      </div>
+                  </div>
+                  <div class="w3-dropdown-hover w3-hide-small">
+                      <button class="w3-padding-large w3-button" title="Database">Database <i class="fa fa-caret-down"></i></button>
+                      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">Advanced Search</a>
+                          <a href="#" class="w3-bar-item w3-button">Index of Species</a>
+                          <a href="#" class="w3-bar-item w3-button">Species requested by users</a>
+                          <a href="#" class="w3-bar-item w3-button">Generes</a>
+                      </div>
+                  </div>
+                  <div class="w3-dropdown-hover w3-hide-small">
+                      <button class="w3-padding-large w3-button" title="Info">Info <i class="fa fa-caret-down"></i></button>
+                      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">Guide to cactuseros.com</a>
+                          <a href="#" class="w3-bar-item w3-button">Premium Subscription</a>
+                          <a href="#" class="w3-bar-item w3-button">Pots and Potting</a>
+                          <a href="#" class="w3-bar-item w3-button">Soil Basics</a>
+                          <a href="#" class="w3-bar-item w3-button">Watering your cacti and succulents</a>
+                          <a href="#" class="w3-bar-item w3-button">Cactus propogation</a>
+                      </div>
+                  </div>
+                  <!--<div class="w3-dropdown-hover w3-hide-small">
+                      <button class="w3-padding-large w3-button" title="Forums">Forums <i class="fa fa-caret-down"></i></button>
+                      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+                          <a href="#" class="w3-bar-item w3-button">Extras</a>
+                          <a href="#" class="w3-bar-item w3-button">Media</a>
+                      </div>
+                  </div>-->
+
+                  <a href="#" class="w3-bar-item w3-button w3-padding-large">0 Notifications</a>
+                  <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+              </div>
+
+          </div>
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px;width:70%;">
+
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <div class="w3-dropdown-hover">
+            <button class="w3-padding-large w3-button" title="Photos">Photos <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Latest BLOOMS</a>
+                <a href="#" class="w3-bar-item w3-button">Latest WITH SPINES</a>
+                <a href="#" class="w3-bar-item w3-button">Latest WITHOUT SPINES</a>
+                <a href="#" class="w3-bar-item w3-button">Most POPULAR</a>
+                <a href="#" class="w3-bar-item w3-button">Latest from FRIENDS</a>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover ">
+            <button class="w3-padding-large w3-button" title="Seed Exchange">Seed Exchange <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">My Seeds</a>
+                <a href="#" class="w3-bar-item w3-button">Seeds Available</a>
+                <a href="#" class="w3-bar-item w3-button">My Exchanges</a>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover ">
+            <button class="w3-padding-large w3-button" title="Identification">Identification <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Identify your cactus</a>
+                <a href="#" class="w3-bar-item w3-button">Unidentified</a>
+                <a href="#" class="w3-bar-item w3-button">Recently Identified</a>
+                <a href="#" class="w3-bar-item w3-button">Doubtful Identifications</a>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover ">
+            <button class="w3-padding-large w3-button" title="Collectors">Collectors <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">See Listing</a>
+                <a href="#" class="w3-bar-item w3-button">Ranking</a>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover ">
+            <button class="w3-padding-large w3-button" title="Contest">Contest <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Current Month's Participants</a>
+                <a href="#" class="w3-bar-item w3-button">Previous Winners</a>
+
+            </div>
+        </div>
+        <div class="w3-dropdown-hover ">
+            <button class="w3-padding-large w3-button" title="Database">Database <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Advanced Search</a>
+                <a href="#" class="w3-bar-item w3-button">Index of Species</a>
+                <a href="#" class="w3-bar-item w3-button">Species requested by users</a>
+                <a href="#" class="w3-bar-item w3-button">Generes</a>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover">
+            <button class="w3-padding-large w3-button" title="Info">Info <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Guide to cactuseros.com</a>
+                <a href="#" class="w3-bar-item w3-button">Premium Subscription</a>
+                <a href="#" class="w3-bar-item w3-button">Pots and Potting</a>
+                <a href="#" class="w3-bar-item w3-button">Soil Basics</a>
+                <a href="#" class="w3-bar-item w3-button">Watering your cacti and succulents</a>
+                <a href="#" class="w3-bar-item w3-button">Cactus propogation</a>
+            </div>
+        </div>
+         <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="pedirLogin();return false;" style="color:azure;font-weight:bold">Login</a>
+         <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="crearCuenta();return false;" style="color:azure;font-weight:bold">Sign up</a>
+
+    </div>
+
+
+
+    <div class="container contentslide">
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-4 col-xs-6">
+                <!--<h2>Cactuseros Meetings</h2>-->
+
+                <br />
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="Img/1.jpg" alt="Los Angeles" style="width:100%;height:100%">
+                        </div>
+
+                        <div class="item">
+                            <img src="Img/2.jpg" alt="Chicago" style="width:100%;height:100%">
+                        </div>
+
+                        <div class="item">
+                            <img src="Img/1.jpg" alt="New york" style="width:100%;height:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="col-sm-offset-1 col-sm-4 col-xs-6">
+                <!--<h2>Winners of past contests</h2>-->
+                <br />
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="Img/1.jpg" alt="Los Angeles" style="width:100%;height:100%">
+                        </div>
+
+                        <div class="item">
+                            <img src="Img/2.jpg" alt="Chicago" style="width:100%;height:100%">
+                        </div>
+
+                        <div class="item">
+                            <img src="Img/1.jpg" alt="New york" style="width:100%;height:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="percentageeCircleHolder" style="padding-left:0%">
+            <div class="PercentageCircle">
+                <svg viewBox="0 0 36 36" class="circular-chart orange">
+                    <path class="circle-bg circle-bg1"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <path class="circle circle1"
+                          stroke-dasharray="65, 100"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <text x="18" y="15" class="percentage percentage1">65%</text>
+                    <text x="18" y="34" class="percentage percentage1">label</text>
+                </svg>
+            </div>
+            <div class="PercentageCircle">
+                <svg viewBox="0 0 36 36" class="circular-chart orange">
+                    <path class="circle-bg circle-bg2"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <path class="circle circle2"
+                          stroke-dasharray="40, 100"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <text x="18" y="15" class="percentage percentage2">40%</text>
+                    <text x="18" y="34" class="percentage percentage2">label</text>
+                </svg>
+            </div>
+            <div class="PercentageCircle">
+                <svg viewBox="0 0 36 36" class="circular-chart orange">
+                    <path class="circle-bg circle-bg3"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <path class="circle circle3"
+                          stroke-dasharray="25, 100"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <text x="18" y="15" class="percentage percentage3">25%</text>
+                    <text x="18" y="34" class="percentage percentage3">label</text>
+                </svg>
+            </div>
+            <div class="PercentageCircle">
+                <svg viewBox="0 0 36 36" class="circular-chart orange">
+                    <path class="circle-bg circle-bg4"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <path class="circle circle4"
+                          stroke-dasharray="60, 100"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <text x="18" y="15" class="percentage percentage4">60%</text>
+                    <text x="18" y="34" class="percentage percentage4">label</text>
+                </svg>
+            </div>
+            <div class="PercentageCircle">
+                <svg viewBox="0 0 36 36" class="circular-chart orange">
+                    <path class="circle-bg circle-bg5"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <path class="circle circle5"
+                          stroke-dasharray="80, 100"
+                          d="M18 2.0845
+                                a 10.9155 7.9155 0 0 1 0 22.831
+                                a 10.9155 7.9155 0 0 1 0 -22.831" />
+                    <text x="18" y="15" class="percentage percentage5">80%</text>
+                    <text x="18" y="34" class="percentage percentage5">label</text>
+                </svg>
+            </div>
+        </div>
+
+        <div class="greenButtonHolder">
+            <button class="topGreenButons">
+                Identify your cactus
+            </button>
+            <button class="topGreenButons">
+                Search the database
+            </button>
+            <button class="topGreenButons">
+                Browse Species
+            </button>
+            <button class="topGreenButons">
+                Go Premium
+            </button>
+            <!-- <button class="topGreenButons">
+                Identify your cactus
+        </button> -->
+            <br /><br />
+        </div>
+
+        <!--<div class="divider"></div>-->
+   </div>
+    <div class="container">
+        <div class="row brakeliner"></div>
+    </div>
+
+    <div class="container contentslide">
+
+        <!-- For Desktop -->
+        <div class="topImageHolder">
+            <div class="nuevas">
+                <span class="titleText">New</span>
+                <div class="nuevasImagesHolder">
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46471/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Florencia1977/139266.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Florencia1977/"></a><img style="" class="conMarco" title="Florencia1977" alt="Florencia1977" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Florencia19777.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Florencia1977/">Florencia1977</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46470/VerCactus.html"><img title="Echeveria runyonii" alt="Echeveria runyonii" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Florencia1977/139265.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Florencia1977/"></a><img style="" class="conMarco" title="Florencia1977" alt="Florencia1977" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Florencia19777.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Echeveria runyonii</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Florencia1977/">Florencia1977</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="content" class="imageContent">
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46469/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/RosaCatalina67/139264.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/RosaCatalina67/"></a><img style="" class="conMarco" title="RosaCatalina67" alt="RosaCatalina67" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/RosaCatalina671.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/RosaCatalina67/">RosaCatalina67</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46468/VerCactus.html"><img title="Mammillaria gracilis" alt="Mammillaria gracilis" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Vanega/139261.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Vanega/"></a><img style="" class="conMarco" title="Vanega" alt="Vanega" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Vanega1.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Mammillaria gracilis</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Vanega/">Vanega</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46467/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/marcoantonio10/139260.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/marcoantonio10/"></a><img style="" class="conMarco" title="marcoantonio10" alt="marcoantonio10" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/marcoantonio10.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/marcoantonio10/">marcoantonio10</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="nuevas">
+                <span class="titleText">Recent Votes</span>
+                <div class="nuevasImagesHolder">
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46471/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Florencia1977/139266.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Florencia1977/"></a><img style="" class="conMarco" title="Florencia1977" alt="Florencia1977" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Florencia19777.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Florencia1977/">Florencia1977</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46470/VerCactus.html"><img title="Echeveria runyonii" alt="Echeveria runyonii" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Florencia1977/139265.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Florencia1977/"></a><img style="" class="conMarco" title="Florencia1977" alt="Florencia1977" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Florencia19777.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Echeveria runyonii</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Florencia1977/">Florencia1977</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="content" class="imageContent">
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46469/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/RosaCatalina67/139264.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/RosaCatalina67/"></a><img style="" class="conMarco" title="RosaCatalina67" alt="RosaCatalina67" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/RosaCatalina671.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/RosaCatalina67/">RosaCatalina67</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46468/VerCactus.html"><img title="Mammillaria gracilis" alt="Mammillaria gracilis" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Vanega/139261.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Vanega/"></a><img style="" class="conMarco" title="Vanega" alt="Vanega" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Vanega1.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Mammillaria gracilis</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Vanega/">Vanega</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46467/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/marcoantonio10/139260.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/marcoantonio10/"></a><img style="" class="conMarco" title="marcoantonio10" alt="marcoantonio10" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/marcoantonio10.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/marcoantonio10/">marcoantonio10</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- For Mobile -->
+        <div class="topImageHolderMobile ">
+
+            <div class="nuevas">
+                <span class="titleText">New</span>
+                <div class="col-xs-12">
+                    <div id="content" class="imageContent ">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46471/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Florencia1977/139266.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="col-xs-3">
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Florencia1977/"></a><img style="" class="conMarco" title="Florencia1977" alt="Florencia1977" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Florencia19777.jpg">
+                                            </td>
+                                            <td class="col-xs-10">
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Florencia1977/">Florencia1977</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46470/VerCactus.html"><img title="Echeveria runyonii" alt="Echeveria runyonii" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Florencia1977/139265.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Florencia1977/"></a><img style="" class="conMarco" title="Florencia1977" alt="Florencia1977" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Florencia19777.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Echeveria runyonii</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Florencia1977/">Florencia1977</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="content" class="imageContent">
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46469/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/RosaCatalina67/139264.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/RosaCatalina67/"></a><img style="" class="conMarco" title="RosaCatalina67" alt="RosaCatalina67" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/RosaCatalina671.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/RosaCatalina67/">RosaCatalina67</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46468/VerCactus.html"><img title="Mammillaria gracilis" alt="Mammillaria gracilis" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Vanega/139261.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Vanega/"></a><img style="" class="conMarco" title="Vanega" alt="Vanega" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Vanega1.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Mammillaria gracilis</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Vanega/">Vanega</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46467/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/marcoantonio10/139260.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/marcoantonio10/"></a><img style="" class="conMarco" title="marcoantonio10" alt="marcoantonio10" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/marcoantonio10.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/marcoantonio10/">marcoantonio10</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="nuevas">
+                <span class="titleText">Recent Votes</span>
+                <div class="co-xs-12">
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46471/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Florencia1977/139266.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Florencia1977/"></a><img style="" class="conMarco" title="Florencia1977" alt="Florencia1977" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Florencia19777.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Florencia1977/">Florencia1977</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46470/VerCactus.html"><img title="Echeveria runyonii" alt="Echeveria runyonii" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Florencia1977/139265.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Florencia1977/"></a><img style="" class="conMarco" title="Florencia1977" alt="Florencia1977" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Florencia19777.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Echeveria runyonii</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Florencia1977/">Florencia1977</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="content" class="imageContent">
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46469/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/RosaCatalina67/139264.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/RosaCatalina67/"></a><img style="" class="conMarco" title="RosaCatalina67" alt="RosaCatalina67" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/RosaCatalina671.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/RosaCatalina67/">RosaCatalina67</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46468/VerCactus.html"><img title="Mammillaria gracilis" alt="Mammillaria gracilis" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/Vanega/139261.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/Vanega/"></a><img style="" class="conMarco" title="Vanega" alt="Vanega" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Vanega1.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Mammillaria gracilis</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/Vanega/">Vanega</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" class="imageContent">
+
+                        <div id="content" class="img-wrap">
+                            <a href="https://www.cactuseros.com/en/Detalles/SinIdentificar/46467/VerCactus.html"><img title="Unidentified" alt="Unidentified" class="conMarco" src="https://images.cactuseros.com/220x220/Imagenes/CactusUsuarios/marcoantonio10/139260.jpg"></a>
+                            <div class="img-overlay">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a style="text-decoration:none" href="https://www.cactuseros.com/en/Perfil/marcoantonio10/"></a><img style="" class="conMarco" title="marcoantonio10" alt="marcoantonio10" src="https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/marcoantonio10.jpg">
+                                            </td>
+                                            <td>
+                                                <h4 style="font-size:13px;font-weight:bold;">Unidentified</h4>
+                                                <p style="font-size:11px;font-weight:bold;">by <a style="color: white; text-decoration:none; font-size:11px;" href="https://www.cactuseros.com/en/Perfil/marcoantonio10/">marcoantonio10</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="container">
+        <div class="row brakeliner"></div>
+    </div>
+
+    <div class="container contentslide">
+        <div class="col-sm-5 col-xs-12" style="background-color:none;font-weight:bold;font-size:16px;">
+            <div class="col-sm-12 conMarco" style="text-align:center; font-weight:normal; background-color:#28391F; color:#FFCC00;box-shadow: 5px 5px 4px #333;">
+                <div class="col-sm-10 tdText">
+
+                    <a class="donalelenilsonText" style="text-decoration:none; font-weight:bold; font-size:18px; color:#FFCC00;padding-top:4%" href="#">donalelenilson</a>  Ahuachapan, Ahuachapan, El Salvador
+
+                </div>
+                <div class="col-sm-2 tdText">
+
+
+                    <a style="text-decoration:none" href="#"><img style="-webkit-border-radius: 4px;margin-top:3px" class="" title="donalelenilson" alt="donalelenilson" src="Img/donalelenilson.jpg"></a>
+                </div>
+
+            </div>
+            <div class="col-sm-12">
+
+                <div class="col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10 ">
+
+                    <br />
+                    <img id="medalla" class="esBotonImagen" style="z-index:999;position:absolute;margin-left:3px;margin-top:8px;" src="Img/puestonro1.png">
+                    <a href=""><img class="conMarcoImage" title="138596" alt="138596" src="Img/puestonro1.jpg"></a>
+                    <br>
+                   <center><span class="textdonalelenilson" > donalelenilson!</span></center>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="col-sm-7 col-xs-12" >
+
+            <div class="col-sm-12 winplace" >
+                <br>
+                <span class="tdText" style="font-size:15px;text-decoration:none;color:#FFCC00;">Leaders for <u>June 2020</u></span>
+                <br><br><br>
+                <div class="col-sm-12">
+
+                    <div class="col-sm-4 col-xs-4">
+
+
+                        <a href="#"><img class="imgsize" title="Classification: 1207 points" alt="Classification: 1207 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Emilio%20V/139200.jpg"></a>
+                        <br>
+                        <span class="placetxt" valign="top" align="center" style="color:#FFF;"> 1st Place</span>
+                        <span style="font-size:11px; color:#FFF;"></span>
+                        <br>
+
+                   </div>
+                    <div class="col-sm-4 col-xs-4">
+
+
+                        <a href="#"><img class="imgsize" title="Classification: 1182 points" alt="Classification: 1182 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Bamba/139043.jpg"></a>
+                        <br>
+                        <span class="placetxt" valign="top" align="center" style="color:#FFF;">  2nd Place</span>
+                        <span style="font-size:11px; color:#FFF;"></span>
+                        <br>
+
+                    </div>
+                    <div class="col-sm-4 col-xs-4">
+
+
+                        <a href="#"><img class="imgsize" title="Classification: 992 points" alt="Classification: 992 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Vanega/139045.jpg"></a>
+                        <br>
+                        <span class="placetxt" valign="top" align="center" style="color:#FFF;">  3rd Place</span>
+                        <span style="font-size:11px; color:#FFF;"></span>
+                        <br>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12">
+                    <br><br>
+                    <div style="width:14.2%;float:left">
+
+                        <a href="#"><img class="imgsizeplaces" title="Classification: 899 points" alt="Classification: 899 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/cesarschuster/139112.jpg"></a>
+                        <br>
+                        <span valign="top" align="left" style="color:#FFF;">   4º </span>
+                     </div>
+                    <div style="width:14.2%;float:left">
+
+                        <a href="#"><img class="imgsizeplaces" title="Classification: 722 points" alt="Classification: 722 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/drjavier/138969.jpg"></a>
+                        <br>
+                        <span valign="top" align="left" style="color:#FFF;">  5º </span>
+                    </div>
+                    <div style="width:14.2%;float:left">
+
+                        <a href="#"><img class="imgsizeplaces" title="Classification: 673 points" alt="Classification: 673 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/Luismi/139071.jpg"></a>
+                        <br>
+                        <span valign="top" align="left" style="color:#FFF;">  6º </span>
+                    </div>
+                    <div style="width:14.2%;float:left">
+
+                        <a href="#"><img class="imgsizeplaces" title="Classification: 627 points" alt="Classification: 627 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/marcoantonio10/139038.jpg"></a>
+                        <br>
+                        <span valign="top" align="left" style="color:#FFF;">  7º </span>
+                    </div>
+                    <div style="width:14.2%;float:left">
+
+                        <a href="#"><img class="imgsizeplaces" title="Classification: 557 points" alt="Classification: 557 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/because/139055.jpg"></a>
+                        <br>
+                        <span valign="top" align="left" style="color:#FFF;">  8º </span>
+                    </div>
+                    <div style="width:14.2%;float:left">
+
+                        <a href="#"><img class="imgsizeplaces" title="Classification: 537 points" alt="Classification: 537 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/empanao/139217_E.jpg"></a>
+                        <br>
+                        <span valign="top" align="left" style="color:#FFF;">  9º </span>
+                    </div>
+                    <div style="width:14.2%;float:left">
+
+                        <a href="#"><img class="imgsizeplaces" title="Classification: 482 points" alt="Classification: 482 points" style="padding:3px; border:1px solid #000000;" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/Kaktus-grys/139160.jpg"></a>
+                        <br>
+                        <span valign="top" align="left" style="color:#FFF;">  10º </span>
+                    </div>
+
+
+                </div>
+
+                <div class="col-sm-12">
+
+                    <span id="glowingLayout" class="countdown is-countdown"><span class="image1"></span><span class="image6"></span><span class="imageDay"></span><span class="imageSpace"></span><span class="image0"></span><span class="image5"></span><span class="imageSep"></span><span class="image2"></span><span class="image3"></span><span class="imageSep"></span><span class="image1"></span><span class="image5"></span></span>
+                    <!-- <a href="https://www.cactuseros.com/Cactus_y_Suculentas_Premiadas.html" style="color:#FFCC00;font-weight:bold;font-size:14px;">- MORE DETAILS -</a> -->
+                    <br>				<br>
+                </div>
+                </div>
+
+      </div>
+
+
+    </div>
+    <div class="container">
+        <div class="row brakeliner"></div>
+    </div>
+
+    <div class="container contentslide">
+
+        <!-- For Desktop -->
+        <div class="topImageHolder">
+            <div class="nuevas">
+                <span class="titleText">FEATURED PHOTOS</span>
+                <div class="nuevasImagesHolder">
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="RosaCatalina67-46469" alt="RosaCatalina67-46469" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/RosaCatalina67/139264.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="drjavier-45532" alt="drjavier-45532" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/drjavier/137078.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="renasanpuy-45527" alt="renasanpuy-45527" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/renasanpuy/137065.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="Alonso71-45994" alt="Alonso71-45994" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Alonso71/138104.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="Peinado-45943" alt="Peinado-45943" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Peinado/138000_E.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="nuevas">
+                <span class="titleText">FEATURED PHOTOS</span>
+                <div class="nuevasImagesHolder">
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="RosaCatalina67-46469" alt="RosaCatalina67-46469" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/RosaCatalina67/139264.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="drjavier-45532" alt="drjavier-45532" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/drjavier/137078.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="renasanpuy-45527" alt="renasanpuy-45527" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/renasanpuy/137065.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="Alonso71-45994" alt="Alonso71-45994" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Alonso71/138104.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="Peinado-45943" alt="Peinado-45943" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Peinado/138000_E.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topImageHolderMobile">
+            <div class="nuevas">
+                <span class="titleText">FEATURED PHOTOS</span>
+                <div class="col-xs-12">
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="RosaCatalina67-46469" alt="RosaCatalina67-46469" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/RosaCatalina67/139264.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="drjavier-45532" alt="drjavier-45532" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/drjavier/137078.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="renasanpuy-45527" alt="renasanpuy-45527" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/renasanpuy/137065.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="Alonso71-45994" alt="Alonso71-45994" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Alonso71/138104.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="Peinado-45943" alt="Peinado-45943" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Peinado/138000_E.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="nuevas">
+                <span class="titleText">FEATURED PHOTOS</span>
+                <div class="col-xs-12">
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="RosaCatalina67-46469" alt="RosaCatalina67-46469" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/RosaCatalina67/139264.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="drjavier-45532" alt="drjavier-45532" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/drjavier/137078.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="renasanpuy-45527" alt="renasanpuy-45527" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/renasanpuy/137065.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="Alonso71-45994" alt="Alonso71-45994" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Alonso71/138104.jpg"></a>
+                    </div>
+                    <div id="content" class="imageContent">
+                        <a href="#"><img title="Peinado-45943" alt="Peinado-45943" class="conMarco nuevasImages" border="0" vspace="0" src="https://images.cactuseros.com/143x143/Imagenes/CactusUsuarios/Peinado/138000_E.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row brakeliner"></div>
+    </div>
+
+    <div class="container contentslide">
+        <div class="col-sm-4 col-xs-12" style="background-color:none;font-weight:bold;font-size:16px;">
+            <div class="CollectionStartsLeft">
+                <div class="CollectionStartsHolder">
+                    <script language="javascript">
+                                        function visitarPerfilDestacado() {
+                                                window.location.href="https://www.cactuseros.com/Perfil/afma/";
+                                        }
+                    </script><br /><br />
+                    <table class="fondoTabla conMarco" style="overflow:hidden;">
+                        <tbody>
+
+                            <tr>
+                                <td width="102" style="position: relative;text-align:center;">
+                                    <div style="position:relative;">
+                                        <div style="padding-bottom:5px;position: absolute; top: 0px; left: 0px; background-color:#333; width:308px; filter:alpha(opacity=82); opacity:0.82;">
+                                            Coleccionista Destacado
+                                            <br>
+                                            <a style="text-decoration:none;font-weight:bold;font-size:18px;font-family: Tahoma, Geneva, sans-serif;" href="https://www.cactuseros.com/Perfil/afma/">afma</a>
+                                        </div>
+                                        <div onclick="visitarPerfilDestacado();" style="cursor:hand; cursor: pointer;padding-bottom:306px;position: absolute; top: 0px; left: 0px; background-color:#333; width:308px; filter:alpha(opacity=15); opacity:0.15;">
+                                        </div>
+
+                                        <a href="#" style="text-decoration:none;"></a><a style="text-decoration:none" href="https://www.cactuseros.com/Perfil/afma/"><img style="position: absolute; top: 90px; left: 90px;" class="conMarco" title="afma" alt="afma" src="https://images.cactuseros.com/143x143/Imagenes/PerfilUsuario/afma.jpg"></a><!--<img class="conMarco" style="position: absolute; top: 90px; left: 90px;" src="" />-->
+
+                                        <a href="#" style="text-decoration:none;"><img title="105033" alt="105033" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/105033.jpg"></a>
+                                    </div>
+                                </td>
+                                <td width="102">
+                                    <a href="#" style="text-decoration:none;"><img title="71165" alt="71165" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/71165.jpg"></a>
+                                </td>
+                                <td width="102">
+                                    <a href="#" style="text-decoration:none;"><img title="72783" alt="72783" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/72783.jpg"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="102">
+                                    <a href="#" style="text-decoration:none;"><img title="68778" alt="68778" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/68778.jpg"></a>
+                                </td>
+                                <td width="102">
+                                    <a href="#" style="text-decoration:none;"><img title="61022" alt="61022" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/61022.jpg"></a>
+                                </td>
+                                <td width="102">
+                                    <a href="#" style="text-decoration:none;"><img title="73753" alt="73753" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/73753.jpg"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="102">
+                                    <a href="#" style="text-decoration:none;"><img title="58539" alt="58539" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/58539.jpg"></a>
+                                </td>
+                                <td width="102">
+                                    <a href="#" style="text-decoration:none;"><img title="86000" alt="86000" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/86000.jpg"></a>
+                                </td>
+                                <td width="102">
+                                    <a href="#" style="text-decoration:none;"><img title="49494" alt="49494" class="conMarco conMarcoImageWidth" width="100" height="100" src="https://images.cactuseros.com/64x64/Imagenes/CactusUsuarios/afma/49494.jpg"></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <br />
+        </div>
+
+        <div class="col-sm-4 col-xs-12">
+                       <div class="row"><h2 style="margin-bottom:3px;">COLECCIONISTAS POR PAIS</h2></div>
+
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/1.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center">  Argentina</div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter"  align="center">3464</div>
+
+                        </div>
+
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/10000.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center">  España</div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">626</div>
+
+                        </div>
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/139.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center">  Mexico</div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">1606</div>
+
+                        </div>
+
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/44.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Chile </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">675</div>
+
+                        </div>
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/48.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Colombia</div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">326</div>
+
+                        </div>
+
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/230.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Venezuela </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">206</div>
+
+                        </div>
+
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/32.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center">Brasil  </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">180</div>
+
+                        </div>
+
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/169.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Peru </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">149</div>
+
+                        </div>
+
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/225.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Uruguay </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">136</div>
+
+                        </div>
+
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/53.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Costa Rica </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">129</div>
+
+                        </div>
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/90.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Guatemala </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">117</div>
+
+                        </div>
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/90.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> -No estoy seguro- </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">101</div>
+
+                        </div>
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/56.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Cuba </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">72</div>
+
+                        </div>
+                        <div class="row" id="tablaActividades">
+                            <div class="col-sm-1 col-xs-1 barlineDiv imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/174.png');"></div>
+                            <div class="col-sm-8 col-xs-8 barlineDiv bold " align="center"> Puerto Rico </div>
+                            <div class="col-sm-2 col-xs-2 barlineDiv  boldcenter" align="center">58</div>
+
+                        </div>
+
+                    </div>
+
+        <div class="col-sm-4 col-xs-12">
+            <div class="row"><h2 style="margin-bottom:3px;">COLECCIONISTAS POR PAIS</h2></div>
+
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center">  Avonia</div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/10000.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center"> España</div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">2117</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center">  because</div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/10000.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center"> España</div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">1076</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center">margim02  </div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/1.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center"> Argentina</div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">986</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center">  MayteDenia</div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/10000.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center">España </div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">960</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center"> Kaktus-grys </div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/1.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center"> Argentina</div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">826</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center"> cesarschuster </div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/44.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center"> Chile</div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">767</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center">  Duke_28</div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/1.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center">Argentina </div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">757</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center"> biznago24 </div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/139.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center"> Mexico</div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">743</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center"> Bamba </div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/1.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center">Argentina </div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">676</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center"> kuky </div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/1.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center">Argentina </div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">653</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center"> Marimar </div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/10000.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center"> España</div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">637</div>
+
+            </div>
+            <div class="row" id="tablaActividades">
+                <div class="col-sm-4 col-xs-4 barlineDivScnd  " align="center"> marcoantonio10 </div>
+                <div class="col-sm-1 col-xs-1 barlineDivScndLeft imgborder " style="background-image: url('https://images.cactuseros.com/assets/img_0001/Banderas/10000.png');"></div>
+                <div class="col-sm-4 col-xs-4 barlineDivScndRight bold " align="center">España </div>
+                <div class="col-sm-2 col-xs-2 barlineDivScnd  boldcenter" align="center">626</div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+    <div class="container">
+                <div class="row brakeliner"></div>
+            </div>
+
+    <div class="container contentslide">
+
+        <div class="col-sm-6 col-xs-12">
+            <div class="row"><h2 style="margin-bottom:3px;">COLECCIONISTAS POR PAIS</h2></div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/antonia.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier, <a href="/Perfil/RosaCatalina67.html">supporting a suggestion by cholo.</a>.
+                    <span style="font-size:10px;">(1 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/antonia.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier, <a href="/Perfil/RosaCatalina67.html">supporting a suggestion by cholo.</a>.
+                    <span style="font-size:10px;">(1 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/cesarschuster.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/"> A user</a>
+                    wrote  a  new  comment <b>  on the  cactus </b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">  uploaded  by  because.....
+                    <span style="font-size:10px;">(2 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/cesarschuster.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier, <a href="/Perfil/RosaCatalina67.html">supporting a suggestion by cholo.</a>.
+                    <span style="font-size:10px;">(1 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Luismi2.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier, <a href="/Perfil/RosaCatalina67.html">supporting a suggestion by cholo.</a>.
+                    <span style="font-size:10px;">(1 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Luismi2.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier, <a href="/Perfil/RosaCatalina67.html">supporting a suggestion by cholo.</a>.
+                    <span style="font-size:10px;">(1 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Luismi2.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier.
+                    <span style="font-size:10px;">(2 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/cesarschuster.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier, <a href="/Perfil/RosaCatalina67.html">supporting a suggestion by cholo.</a>.
+                    <span style="font-size:10px;">(1 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/antonia.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier, <a href="/Perfil/RosaCatalina67.html">supporting a suggestion by cholo.</a>.
+                    <span style="font-size:10px;">(1 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/cesarschuster.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:82%;float:left;padding-left:10px">
+                    <a style="text-decoration:none;" href="https://www.cactuseros.com/Perfil/antonia/">alcantara</a>
+                    voted for <b> Cleistocactus winteri</b> on <a href="/Detalles/SinIdentificar/46469/VerCactus.html">the cactus </a> uploaded by drjavier, <a href="/Perfil/RosaCatalina67.html">supporting a suggestion by cholo.</a>.
+                    <span style="font-size:10px;">(1 hour ago)</span>
+
+                </div>
+                <div class="CurrentlineDiv bold " align="center" style="width:1.5%;float:left;"></div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <div class="col-sm-6 col-xs-12">
+            <div class="row"><h2 style="margin-bottom:3px;">COLECCIONISTAS POR PAIS</h2></div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/sinFoto.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    <a style="color:white;font-size:12px;" href="https://www.cactuseros.com/Perfil/Luismi/">Luismi</a>:
+                    Muy bonitas fotos. <img src="https://images.cactuseros.com/assets/img_0001/smilies/clap2.gif">  <img src="https://images.cactuseros.com/assets/img_0001/smilies/clap2.gif">
+
+
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/drjavier/138187.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Luismi2.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    <a style="color:white;font-size:12px;" href="https://www.cactuseros.com/Perfil/antonia/">antonia</a>:
+                    De acuerdo margim02, por mí no hay problema alguno, no obstante, como sí es verdad que existe el híbrido en una página...
+
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/Florencia1977/139265.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Vanega1.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    Un usuario:
+                    Podrías añadir una foto con más luz?
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/renasanpuy/137084.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Vanega1.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    <a style="color:white;font-size:12px;" href="https://www.cactuseros.com/Perfil/antonia/">antonia</a>:
+                    Precioso, <img src="https://images.cactuseros.com/assets/img_0001/smilies/clap2.gif">
+
+
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/ariel15/136233.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/Florencia1977/139265.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    <a style="color:white;font-size:12px;" href="https://www.cactuseros.com/Perfil/Luismi/">Luismi</a>:
+                    Muy bonitas fotos. <img src="https://images.cactuseros.com/assets/img_0001/smilies/clap2.gif">  <img src="https://images.cactuseros.com/assets/img_0001/smilies/clap2.gif">
+
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/marcoantonio10/131707.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/sinFoto.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    Un usuario:
+                    Hermoso <img src="https://images.cactuseros.com/assets/img_0001/smilies/icon_exclaim.gif">
+
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/AngelCS14/136238_E.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Vanega1.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    Un usuario:
+                    ¿ Ha crecido o florecido?
+
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/marcoantonio10/129018.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/sinFoto.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    Un usuario:
+                    Para eliminar
+
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/Inethven/133389.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/Vanega1.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    Un usuario:
+                    ¿ ha florecido?
+
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/ariel15/136233.jpg');"></div>
+            </div>
+
+            <div class="row" id="tablaActividades">
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/PerfilUsuario/sinFoto.jpg');"></div>
+                <div class="CurrentlineDiv bold " align="left" style="width:78%;float:left;padding-left:10px">
+                    Un usuario:
+                    ?
+                </div>
+                <div class="CurrentlineDiv imgborder " style="width:9%;float:left;background-image: url('https://images.cactuseros.com/32x32/Imagenes/CactusUsuarios/drjavier/138187.jpg');"></div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row brakeliner"></div>
+    </div>
+
+
+    <div class="container contentslide">
+
+                <!-- For Desktop -->
+                <br /><br /><br />
+    </div>
+
+
+
+
+
+
+
+    <!-- formulario login -->
+    <form method="POST" action="https://www.cactuseros.com/Login" class="login_form" id="formularioLogin" style="display:none;background-color:#5a401c;">
+        <h3>Login</h3>
+        <p><label>Enter a username:</label><input name="usuario" type="text" /></p>
+        <p><label>Password:</label><input name="password" type="password" /></p>
+        <button onclick="intentarLogin();return false;" id="submitLogin" class="sexybutton sexysimple sexyorange"><span class="user">Login</span></button>
+        <input type="hidden" name="desdeFormulario" value="1" />
+        <br /><br />
+        Don't have an account yet?<br />
+        Create one now by clicking <a style="color:yellow;" onclick="crearCuenta();" href="#">here</a>!
+
+        <br /><br />
+        <span style="text-decoration:underline; color:#ffcc00;cursor:hand;" onclick="mostrarOpcionRecuperar();">Forgot your password?</span>
+    </form>
+    <!-- formulario login -->
+    <div id="formularioRegistro" style="display:none;background-color:#5a401c; width:375px;height:424px; overflow-x:hidden">
+        <b>SIGN UP</b>
+        <form id="formRegistro" action="https://www.cactuseros.com/PostDatosCuenta" method="POST">
+            <br />
+            <input type="hidden" id="jigsaw" name="jigsaw" value="45Y6YU78HYKd.YU" />
+            <div class="formField">
+                <div class="formLabel">Enter a username*:</div>
+                <input id="nombreNuevoUsuario" type="text" value="" size="30" name="usuario" placeholder="Enter a username">
+            </div>
+            <div class="formField">
+                <div class="formLabel">e-mail*:</div>
+                <input id="emailNuevoUsuario" type="text" name="email" size="30" value="" placeholder="email">
+            </div>
+            <!--
+            <div class="formField">
+            <div class="formLabel">Reenter e-mail*:</div>
+            <input id="emailNuevoUsuario2" type="text" name="email2" size="30" value="" placeholder="Reenter e-mail">
+            </div>
+            -->
+            <div class="formField">
+                <div class="formLabel">Password*:</div>
+                <input type="password" name="password" size="30" value="" placeholder="Password">
+            </div>
+            <div class="formField">
+                <div class="formLabel">Country*:</div>
+                <select name="Pais" id="Pais"> <option value="-444">-Select-</option>  <option value="1">Argentina</option>  <option value="10012">Australia</option>  <option value="28">Bolivia</option>  <option value="32">Brasil</option>  <option value="2">Canada</option>  <option value="44">Chile</option>  <option value="48">Colombia</option>  <option value="53">Costa Rica</option>  <option value="56">Cuba</option>  <option value="10015">Dinamarca</option>  <option value="64">Ecuador</option>  <option value="10018">El Salvador</option>  <option value="10000">Espa&ntilde;a</option>  <option value="10004">France</option>  <option value="10003">Germany</option>  <option value="90">Guatemala</option>  <option value="96">Honduras</option>  <option value="10014">Irlanda</option>  <option value="10007">Israel</option>  <option value="10002">Italia</option>  <option value="107">Jamaica</option>  <option value="139">Mexico</option>  <option value="155">Nicaragua</option>  <option value="10017">Noruega</option>  <option value="10013">Nueva Zelanda</option>  <option value="166">Panama</option>  <option value="168">Paraguay</option>  <option value="169">Peru</option>  <option value="10001">Portugal</option>  <option value="10010">Principado de Andorra</option>  <option value="174">Puerto Rico</option>  <option value="10011">República Checa</option>  <option value="10009">República Dominicana</option>  <option value="196">South Africa</option>  <option value="10016">Suecia</option>  <option value="10005">United Kingdom</option>  <option value="12">United States</option>  <option value="225">Uruguay</option>  <option value="230">Venezuela</option> </select>
+            </div>
+            <!--
+            <div class="formField">
+            <div class="formLabel">Date of birth:</div>
+                    <input type="text" id="FechaNacimiento" name="FechaNacimiento" value="1981-05-30" size="15"/>
+            </div>
+
+            <div class="formField">
+            <div class="formLabel">City:</div>
+            <input type="text" name="ciudad" align="left" size="30" value="" placeholder="City">
+            </div>
+
+            <div class="formField">
+            <div class="formLabel">State/Province:</div>
+            <input type="text" name="provincia" align="left" size="30" value="" placeholder="State/Province">
+            </div>
+            -->
+        </form>
+        <br />
+        <div style="clear:both;">&nbsp;</div>
+        <button onclick="guardarDatosCuenta();return false;" id="submitLogin" class="sexybutton sexysimple sexyorange"><span class="key">Create Account</span></button>
+    </div>
+
+
+
+
+
+  <script>
+                // Automatic Slideshow - change image every 4 seconds
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 4000);
+                }
+
+                // Used to toggle the menu on small screens when clicking on the menu button
+                function myFunction() {
+                    var x = document.getElementById("navDemo");
+                    if (x.className.indexOf("w3-show") == -1) {
+                        x.className += " w3-show";
+                    } else {
+                        x.className = x.className.replace(" w3-show", "");
+                    }
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                var modal = document.getElementById('ticketModal');
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+</body>
+</html>
