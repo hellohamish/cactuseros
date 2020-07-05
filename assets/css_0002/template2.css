@@ -1,0 +1,20 @@
+#ja-vmcurrency {
+	BORDER-RIGHT: #e6e6e6 1px solid; RIGHT: 230px; WIDTH: 280px; POSITION: absolute; TOP: 20px; HEIGHT: 65px
+}
+#ja-vmcurrency DIV.moduletable {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 15px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#ja-vmcurrency DIV.moduletable H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#ja-mainnavwrap {
+	BORDER-TOP: #e6e6e6 1px solid; Z-INDEX: 999; BACKGROUND: #224422; HEIGHT: 35px
+}
+#ja-mainnav {
+	BACKGROUND: url(../images/dot-dark.gif) repeat-y left 50%; FLOAT: right; WIDTH: 760px; HEIGHT: 35px
+}
+.narrow #ja-mainnav {
+	WIDTH: 600px
+}
+
+

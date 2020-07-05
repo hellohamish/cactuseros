@@ -1,0 +1,39 @@
+body, div, img, p { padding:0; margin:0; }
+a img { border:0 }
+
+
+.break { clear:both; }
+
+#searchform { margin:14px 10px; font-size:18px; }
+#searchform div { color:#eeeeee; }
+#searchform div input { font-size:15px; padding:2px; width:100px; }
+
+/*  left:235px;  */
+
+#suggestions{ 
+
+-moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+	top: 50%;
+   left: 50%;
+   width: 900px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -450px; /* Half the width */
+  position: fixed; z-index:100; display:none;
+  
+ }
+
+#searchresults { border-width:1px; border-color:#919191; position:absolute; z-index:100; border-style:solid; width:900px; background-color:#a0a0a0; font-size:10px; line-height:14px; }
+#searchresults a { display:block; background-color:#e4e4e4; clear:left; height:56px; text-decoration:none; }
+#searchresults a:hover { background-color:#b7b7b7; color:#ffffff; }
+#searchresults a img { float:left; padding:5px 10px; }
+#searchresults a span.searchheading { display:block; font-weight:bold; padding-top:5px; color:#191919; }
+#searchresults a:hover span.searchheading { color:#ffffff; }
+#searchresults a span { color:#555555; }
+#searchresults a:hover span { color:#f1f1f1; }
+#searchresults span.category { font-size:11px; margin:5px; display:block; color:#ffffff; }
+#searchresults span.seperator { float:right; padding-right:15px; margin-right:5px; background-image:url(http://www.entreinsectos.com/Imagenes/shortcuts_arrow.gif); background-repeat:no-repeat; background-position:right; }
+#searchresults span.seperator a { background-color:transparent; display:block; margin:5px; color:#ffffff; }

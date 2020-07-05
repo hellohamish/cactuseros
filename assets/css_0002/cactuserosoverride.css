@@ -1,0 +1,56 @@
+
+
+#wrapperGlobal {
+	max-width:1220px;
+	width: unset;
+}
+
+#panelOpciones {
+	max-width:1220px;
+	width: unset;
+}
+
+.fluid_container a {
+  text-decoration: none;
+  color: #E9E9E9;
+  font-weight: bold;
+}
+
+.fluid_container a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#back_to_camera {
+  clear: both;
+  display: block;
+  height: 80px;
+  line-height: 40px;
+  padding: 10px;
+}
+
+.fluid_container {
+  margin: 0 auto;
+  max-width: 460px;
+  height: 365px;
+  width: 100%;
+  font-size: small;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align:left;
+	float: left;
+	padding-left: 7%;
+}
+table.fondoTabla, .fondoTabla {
+	height: 206px;
+}
+#tablaActividades tr {
+    height: 22px;
+}
+
+#wrapcentre {
+	margin-left: 4px;
+}
+
+.tablaActividadesCompletaBS #tablaActividadesBS {
+	min-width: 350px;
+}

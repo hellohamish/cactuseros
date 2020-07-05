@@ -1,0 +1,225 @@
+#ja-cssmenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 1px; PADDING-TOP: 0px
+}
+#ja-cssmenu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#ja-cssmenu LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; PADDING-TOP: 0px
+}
+#ja-cssmenu LI UL {
+	Z-INDEX: 99; LEFT: -999em; WIDTH: 15.9em; POSITION: absolute; HEIGHT: auto
+}
+#ja-cssmenu LI UL UL {
+	MARGIN: -2em 0px 0px 15em
+}
+#ja-cssmenu LI LI {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 14.9em; PADDING-TOP: 0px
+}
+#ja-cssmenu UL A {
+	WIDTH: 10.8em
+}
+#ja-cssmenu LI:hover UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI:hover UL UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI.sfhover UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI.havechildsfhover UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI.havechild-activesfhover UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI.activesfhover UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI.sfhover UL UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI.havechildsfhover UL UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI.havechild-activesfhover UL UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI.activesfhover UL UL UL {
+	LEFT: -999em
+}
+#ja-cssmenu LI:hover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI:hover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI LI:hover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI.sfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI.havechildsfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI.havechild-activesfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI.activesfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI.sfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI.havesubchildsfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI.havesubchild-activesfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI.activesfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI LI.sfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI LI.havesubchildsfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI LI.havesubchild-activesfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI LI LI.activesfhover UL {
+	LEFT: auto
+}
+#ja-cssmenu LI A {
+	PADDING-RIGHT: 20px; DISPLAY: block; PADDING-LEFT: 20px; font-size:12px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; COLOR: #dddddd; LINE-HEIGHT: 35px; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#ja-cssmenu LI A SPAN {
+	
+}
+#ja-cssmenu LI A:hover {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI A:active {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI A:focus {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI:hover A {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI.sfhover A {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI.havechildsfhover A {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI.havechild-activesfhover A {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI:hover A SPAN {
+	
+}
+#ja-cssmenu LI.sfhover A SPAN {
+	
+}
+#ja-cssmenu LI.havechildsfhover A SPAN {
+	
+}
+#ja-cssmenu LI.havechild-activesfhover A SPAN {
+	
+}
+#ja-cssmenu LI A.active {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI A.active:hover {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI A.active:active {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI A.active:focus {
+	BACKGROUND: #113311; COLOR: #ffffff
+}
+#ja-cssmenu LI A.active SPAN {
+	DISPLAY: block
+}
+#ja-cssmenu LI A.active:hover SPAN {
+	DISPLAY: block
+}
+#ja-cssmenu LI A.active:active SPAN {
+	DISPLAY: block
+}
+#ja-cssmenu LI A.active:focus SPAN {
+	DISPLAY: block
+}
+#ja-cssmenu LI UL {
+	BORDER-RIGHT: #5a5a5a 1px solid; BORDER-TOP: #5a5a5a 1px solid; BACKGROUND: #113311; BORDER-LEFT: #5a5a5a 1px solid; BORDER-BOTTOM: #5a5a5a 1px solid
+}
+#ja-cssmenu LI UL UL {
+	BORDER-RIGHT: #5a5a5a 1px solid; BORDER-TOP: #5a5a5a 1px solid; BORDER-LEFT: #5a5a5a 1px solid; BORDER-BOTTOM: #5a5a5a 1px solid
+}
+#ja-cssmenu LI UL LI {
+	BORDER-TOP: #6f6f6f 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-RIGHT-STYLE: none
+}
+#ja-cssmenu LI UL A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 7px; MARGIN: 0px; TEXT-TRANSFORM: none; COLOR: #ffffff! important; LINE-HEIGHT: normal; PADDING-TOP: 7px; BORDER-RIGHT-STYLE: none; HEIGHT: auto
+}
+#ja-cssmenu LI UL A SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#ja-cssmenu LI.havesubchild {
+	BACKGROUND: url(img/arrow-1.gif) no-repeat 94% 50%
+}
+#ja-cssmenu LI.havesubchild-active {
+	BACKGROUND: url(img/arrow-1.gif) no-repeat 94% 50%
+}
+#ja-cssmenu LI UL A:hover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu LI UL A:active {
+	BACKGROUND: #113311
+}
+#ja-cssmenu LI UL A:focus {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL LI:hover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL LI.sfhover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL LI.havesubchildsfhover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL LI.havesubchild-activesfhover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL UL LI:hover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL UL LI.sfhover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL UL LI.havesubchildsfhover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL UL LI.havesubchild-activesfhover {
+	BACKGROUND: #113311
+}
+#ja-cssmenu UL LI A.active {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#ja-cssmenu UL LI A.active:hover {
+	
+}
+#ja-cssmenu UL LI A.active:active {
+	
+}
+#ja-cssmenu UL LI A.active:focus {
+	
+}

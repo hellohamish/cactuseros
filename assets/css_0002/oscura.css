@@ -1,0 +1,105 @@
+.frase p:first-letter{
+  text-transform: uppercase;
+}
+.frase p {
+	color: #FFF;
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 12pt;
+	font-variant: small-caps;
+}
+
+#contenidoCentral {
+	background-color:#222;
+}
+
+.contenedorPerfil {
+	height:100%;
+	width:100%;
+	margin-top:0px; 
+	padding-top:0px; 
+	margin-left:auto; 
+	margin-right:auto;
+	text-align:left;
+	color:#EEE;
+}
+
+.tablaInfoPrincipal {
+	width:85%;
+	padding:20px;
+	background-color:#444; 
+	box-shadow: 10px 10px 5px #191919;
+	-moz-box-shadow: 10px 10px 5px #191919;
+}
+
+.tablaEstadisticas {
+	background-color:#555;
+}
+
+.estiloTituloPerfil {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #DDD;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+.estiloTituloPerfilMedianoSecciones{
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #DDD;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 40px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+.estiloTituloPerfilMediano {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #DDD;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 40px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+.resaltadoInfoPerfil {
+	font-family: Gill Sans, Verdana;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #DDD;
+}
+
+.resaltadoInfoPerfilMediano{
+	font-family: Gill Sans, Verdana;
+	font-size: 10px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #DDD;
+}
+
+
+.normalPerfil {
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: normal;
+	color: #ccc;
+}

@@ -1,0 +1,29 @@
+html, body, table { width: 100%; height: 100%; }
+body { font-family: Verdana, sans-serif; font-size: 12px; }
+
+#error { color: red; }
+
+
+#header { height: 40px; text-align: center; vertical-align: middle; border-bottom: 1px solid #ddd; }
+#header div { padding: 0.5em; }
+
+#ventanaChat { width:80%; vertical-align:top; }
+#ventanaChat ul { overflow: auto; }
+
+#listaUsuarios { width:20%; height:100%; }
+#listaUsuarios select { overflow: auto; width:100%; height:100%; background: #3b3; }
+
+#enviarMensaje td { height: 40px; vertical-align: middle; border-top: 1px solid #ddd; }
+
+#ventanaChat li { padding: 0.5em; line-height: 1.5em; border-bottom: 1px solid #ddd; }
+#ventanaChat li.empty { border-width: 0; }
+#ventanaChat .author { font-weight: bold; }
+
+#listaUsuarios { border-left: 1px solid #ddd; }
+#listaUsuarios li { padding: 0.5em; line-height: 1.5em; border-bottom: 1px solid #ddd; }
+
+#inputEnviarMensaje div { padding: 5px 10px; }
+
+#botonEnviarMensaje button { line-height: 1.5em; }
+#botonEnviarMensaje div { padding: 5px 10px; }
+#mensaje { width: 100%; }

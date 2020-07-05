@@ -1,0 +1,16 @@
+body { background: #393; color: white; }
+#error { color: yellow; }
+
+#header,
+#enviarMensaje td { background: #060; }
+
+#header,
+#enviarMensaje td,
+#ventanaChat li,
+#listaUsuarios,
+#listaUsuarios li { border-color: #373; }
+#comboBoxUsuarios {}
+
+#ventanaChat li.system { color: white; }
+#ventanaChat li.own { background: #4a4; }
+#ventanaChat .time { color: white; }
