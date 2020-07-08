@@ -1,0 +1,236 @@
+
+/* *** DEVICE LAYOUTS BELOW *** */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .topBar {
+      width: 100%;
+      height: 35vw;
+    }
+
+    .topBarLeftContant {
+      width: 100%;
+      height: 50%;
+      /* left: 30%;
+      transform: translateX(-50%); */
+    }
+    .topBarRightContant {
+      position: relative;
+      float: right;
+      width: 100%;
+      height: 50%;
+    }
+
+    .loginButtons {
+
+        top: 1%;
+        transform: translateY(0%);
+        height: 100%;
+      }
+    /* .logoImage {
+    height: 40%;
+    top: 70%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    } */
+
+
+     .buttonsHolder {
+    height: 30%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .topImageHolder{
+  height: 43vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .topImageHolder{
+  height: 35vw;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+.img-overlay img {
+  display:none;
+}
+.img-overlay p, .img-overlay h4 {
+  width: 100%
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+.topImageHolder {
+  display: none;
+  }
+
+.languageLinks {
+  margin-top: 4%;
+  /* width: 50%; */
+}
+
+.topGreenButons {
+  font-size: 1.8vw;
+}
+
+.topImageHolder {
+  height: 55vw;
+}
+
+.donalelenilsonContent {
+height: 48vw;
+}
+
+.CollectionStarts {
+height: 34vw;
+}
+
+.currentActivity {
+  height: 204vw;
+}
+
+.mayoresColectionImages {
+  width: 75px;
+}
+
+.topImageHolderMobile {
+display: block;
+position: relative;
+float: left;
+width: 100%;
+height: 100%;
+}
+
+.topImageHolderMobile img {
+  height: 70%;
+}
+
+.img-overlayMobile {
+background-color: #000;
+/* bottom: 0; */
+color: #fff;
+filter: alpha(opacity = 0);
+position: absolute;
+width: 100%!important;
+z-index: 500;
+text-align: left;
+background: rgba(0, 0, 0, 0.6);
+/* left: 9%; */
+}
+
+.img-overlayMobile p, .img-overlayMobile h4 {
+  font-size: 8pt;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 3px;
+}
+
+.img-wrap {
+position: relative!important;
+text-align: center!important;
+float: left!important;
+margin: 3px;
+width: 100%!important;
+height: 100%!important;
+}
+
+.nuevas {
+width: 96%;
+height: 50%;
+padding: 2%;
+margin-bottom: 7%;
+}
+
+}
+
+
+/* OVERRIDES */
+
+.w3-padding-large {
+    padding: 12px 20px!important;
+}
+
+
+
+/* Horizontal scrolling images */
+
+
+:root {
+  --gutter: 20px;
+}
+
+.app {
+  padding: var(--gutter) 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.app > * {
+  grid-column: 2 / -2;
+}
+
+.app > .full {
+  grid-column: 1 / -1;
+}
+
+.hs {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: 10px;
+  grid-template-rows: minmax(162px, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: calc(40% - var(--gutter) * 2);
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+}
+
+.hs:before,
+.hs:after {
+  content: '';
+  width: 10px;
+}
+
+.hs > li,
+.item {
+  scroll-snap-align: center;
+  /*
+  padding: calc(var(--gutter) / 2 * 1.5);
+  background: #fff;
+  border-radius: 8px;
+  */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.no-scrollbar {
+  scrollbar-width: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
