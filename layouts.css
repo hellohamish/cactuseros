@@ -71,7 +71,7 @@ height: 100%;
 }
 
 .topImageHolderMobile img {
-  height: 70%;
+  height: auto !important;
 }
 
 .img-overlayMobile {
@@ -79,20 +79,20 @@ background-color: #000;
 /* bottom: 0; */
 color: #fff;
 filter: alpha(opacity = 0);
-position: absolute;
+position: auto;
 /* width: auto !important; */
 z-index: 500;
 text-align: left;
 background: rgba(0, 0, 0, 0.6);
 /* left: 9%; */
-width: 80% !important;
-    margin-left: 10%;
+/* width: 80% !important;
+    margin-left: 10%; */
 }
 
 .img-overlayMobile p, .img-overlayMobile h4 {
-  font-size: 8pt;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  font-size: 6pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 3px;
 }
 
@@ -101,7 +101,7 @@ position: relative!important;
 text-align: center!important;
 float: left!important;
 margin: 0px;
-width: 100%!important;
+width: 64px!important;
 height: 100%!important;
 }
 
@@ -114,7 +114,15 @@ margin-bottom: 7%;
 
 .titleText {
 font-size: 2.5vw;
+padding-top: 1%;
 /* margin-left: 7%; */
+}
+.hs {
+  grid-template-rows: auto;
+  grid-auto-columns: calc(70px);
+}
+.nuevasImagesHolder {
+  margin-left: 0px;
 }
 
 }
@@ -151,7 +159,5 @@ font-size: 2.5vw;
     width: 49%;
   }
 
-  .hs {
-    grid-auto-columns: calc(62% - var(--gutter) * 6);
-  }
+
 }
