@@ -159,5 +159,20 @@ padding-top: 1%;
     width: 49%;
   }
 
+  .winplace {
+    min-width: auto;
+  }
+
+  .contestant {
+  margin-right: 4%;;
+  float: left;
+  width: 143px;
+  }
+  .contestantOther {
+  margin-right: 2%;;
+  float: left;
+  width: 64px;
+  }
+
 
 }

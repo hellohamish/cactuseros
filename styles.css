@@ -475,57 +475,137 @@ height: 95%;
 }
 
 .conMarco {
-
 height: 100%;
 }
-.winplace{
 
-        background-color:#28391F; color:#FFCC00;box-shadow: 5px 5px 4px #333;text-align:center;height:460px;
-    }
-  #glowingLayout {
-    margin-top:4px;
-    width: 418px;
-    padding: 5px;
-    background-color: #1a1616;
-    position: absolute;
-    margin-left: 10px;
+.winplace{
+background-color:#28391F;
+color:#FFCC00;
+box-shadow: 5px 5px 4px #333;
+text-align:center;
+/* min-height:360px; */
+max-width: 460px;
 }
 
-        #glowingLayout span { display: block; float: left; width: 34px; height: 50px; background: url('https://www.cactuseros.com/js/countdown/countdownGlowing.gif') no-repeat 0px 0px; }
-        #glowingLayout span.image0 { background-position: -0px 0px; }
-        #glowingLayout span.image1 { background-position: -34px 0px; }
-        #glowingLayout span.image2 { background-position: -68px 0px; }
-        #glowingLayout span.image3 { background-position: -102px 0px; }
-        #glowingLayout span.image4 { background-position: -136px 0px; }
-        #glowingLayout span.image5 { background-position: -170px 0px; }
-        #glowingLayout span.image6 { background-position: -204px 0px; }
-        #glowingLayout span.image7 { background-position: -238px 0px; }
-        #glowingLayout span.image8 { background-position: -272px 0px; }
-        #glowingLayout span.image9 { background-position: -306px 0px; }
-        #glowingLayout span.imageDay { background-position: -340px 0px; }
-        #glowingLayout span.imageSep { background-position: -374px 0px; }
-        #glowingLayout span.imageSpace { background-position: -408px 0px; }
-        .compared { float: right; padding: 0em 1em; }
 
-           .CollectionStartsHolder {
-    width: 85%;
-    height: 97%;
-    left: 50%;
-    transform: translateX(-50%);
-    }
+.leaderContainer {
+background-color:#28391F;
+color:#FFCC00;
+box-shadow: 5px 5px 4px #333;
+text-align:center;
+/* min-height:362px; */
+max-width: 497px;
+float: left;
+margin-top: 10px;
+margin-left: 2%;
+}
+
+.leader {
+float:left;
+padding: 2px;
+padding-left: 1%;
+}
+
+.leaderPositionTop{
+font-size:11px;
+align: center;
+color:#FFF;
+}
+
+.leaderPosition {
+align: center;
+color:#FFF;
+}
+
+.tdText {
+font-size: 12pt;
+text-align: center;
+text-align: -webkit-center;
+text-decoration: none;
+color: #FFCC00;
+}
+
+/* #glowingLayout {
+  margin-top:4px;
+  width: 418px;
+  padding: 5px;
+  background-color: #1a1616;
+  position: absolute;
+  margin-left: 10px;
+} */
+
+.countdown {
+margin-top: 20px;
+margin-left: 2%;
+font-weight: bold;
+/* clear: left; */
+height: 67px;
+float: left;
+}
 
 
-#glowingLayout {
+.glowingLayout {
 width: 78%;
 padding: 1%;
 background-color: #000;
-position: absolute;
-position: relative;
 float: left;
+/* left: 50%;
+transform: translateX(-50%); */
+max-width: 270px;
+height:35px;
+padding: 5px;
+position: absolute;
+margin-left: 5px;
+background-image: url("Img/datetime.PNG");
+background-repeat: no-repeat, repeat;
+background-position: center;
+background-size: cover;
+}
+
+ #glowingLayout span { display: none; float: left; width: 34px; height: 50px; background: url('https://www.cactuseros.com/js/countdown/countdownGlowing.gif') no-repeat 0px 0px; }
+ #glowingLayout span.image0 { background-position: -0px 0px; display: none;}
+ #glowingLayout span.image1 { background-position: -34px 0px; display: none;}
+ #glowingLayout span.image2 { background-position: -68px 0px; display: none;}
+ #glowingLayout span.image3 { background-position: -102px 0px;display: none; }
+ #glowingLayout span.image4 { background-position: -136px 0px;display: none; }
+ #glowingLayout span.image5 { background-position: -170px 0px;display: none; }
+ #glowingLayout span.image6 { background-position: -204px 0px;display: none; }
+ #glowingLayout span.image7 { background-position: -238px 0px; display: none;}
+ #glowingLayout span.image8 { background-position: -272px 0px; display: none;}
+ #glowingLayout span.image9 { background-position: -306px 0px; display: none;}
+ #glowingLayout span.imageDay { background-position: -340px 0px;display: none; }
+ #glowingLayout span.imageSep { background-position: -374px 0px; display: none;}
+ #glowingLayout span.imageSpace { background-position: -408px 0px;display: none; }
+
+
+ .lastWinner {
+ /* margin-top: 20px; */
+     margin-top: 10px;
+ margin-left: 2%;
+ /* font-weight: bold; */
+ height: 67px;
+ float: left;
+ background-color:#28391F;
+ color:#FFCC00;
+ box-shadow: 5px 5px 4px #333;
+ text-align:center;
+ min-height:366px;
+ padding: 5px;
+ max-width: 250px;
+ float: left;
+ }
+
+.compared { float: right; padding: 0em 1em; }
+
+.CollectionStartsHolder {
+width: 85%;
+height: 97%;
 left: 50%;
 transform: translateX(-50%);
-margin-left: 0;
 }
+
+
+
 
 .featuredPhotos{
 position: relative;
@@ -615,6 +695,10 @@ width: 100%;
 /* height: 33vw; */
 }
 
+.imageHolder titleText {
+font-size: 1vw;
+}
+
 /* .nuevas {
 position: relative;
 float: left;
@@ -642,10 +726,10 @@ float: left;
   padding-inline-start: 0%;
 }
 
-.nuevasImages{
+/* .nuevasImages{
 height: 95%!important;
 width:100%!important;
-}
+} */
 
 .imageContent{
 position: relative;
@@ -820,10 +904,7 @@ width: 100%!important;
 
 
 
-    .titleText {
-    font-size: 1.5vw;
-    /* margin-left: 7%; */
-    }
+
 
 
 
@@ -854,100 +935,63 @@ width: 100%!important;
     /*    box-shadow: 5px 5px 4px #a02020; */
     }
 
-    .tdText {
-    font-size: 4vw!important;
-    text-align: center;
-    text-align: -webkit-center;
+
+
+    .contestantOther {
+    margin-right: 0%;
+    width:14.2%;
+    float:left;
+    font-size: 8pt;
     }
 
+    .winnerText {
+      margin-top: 10px;
+    }
 
-
-
-    .donalelenilsonText {
-    font-size: 8vw!important;
+    .lastWinnerText {
+    /* font-size: 8vw!important; */
     padding-top:13px;
+    font-weight:bold;
+    font-size:18px;
+    color:#FFCC00;
     }
 
     .conMarcoImage {
-    width: 80%;
     align-items:center;
     padding-left:12%;
     }
-    .textdonalelenilson{
 
-       font-size:23px;margin-top:8px;margin-left:-12px;
-       color:#000;
+    .lastWinnerName{
+       font-size:23px;
+       margin-top:8px;
+       margin-left:-12px;
+       color:#FFCC00;
     }
+
     .donalelenilsonContentRightSide {
     width: 100%;
     height: 49%;
     margin-top: 4%;
     }
 
-    .winplace{
-        height:350px;
-        background-color:#28391F; color:#FFCC00;box-shadow: 5px 5px 4px #333;text-align:center;
-    }
- #glowingLayout {
 
-    margin-top:4px;
-    max-width: 270px;
-    height:35px;
-    padding: 5px;
-    /*background-color: #1a1616;*/
-    position: absolute;
-    margin-left: 5px;
-    margin-top: 30px;
-    background-image: url("Img/datetime.PNG");
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
 
-}
-
-  #glowingLayout span { display: none; float: left; width: 34px; height: 50px; background: url('https://www.cactuseros.com/js/countdown/countdownGlowing.gif') no-repeat 0px 0px; }
-  #glowingLayout span.image0 { background-position: -0px 0px; display: none;}
-  #glowingLayout span.image1 { background-position: -34px 0px; display: none;}
-  #glowingLayout span.image2 { background-position: -68px 0px; display: none;}
-  #glowingLayout span.image3 { background-position: -102px 0px;display: none; }
-  #glowingLayout span.image4 { background-position: -136px 0px;display: none; }
-  #glowingLayout span.image5 { background-position: -170px 0px;display: none; }
-  #glowingLayout span.image6 { background-position: -204px 0px;display: none; }
-  #glowingLayout span.image7 { background-position: -238px 0px; display: none;}
-  #glowingLayout span.image8 { background-position: -272px 0px; display: none;}
-  #glowingLayout span.image9 { background-position: -306px 0px; display: none;}
-  #glowingLayout span.imageDay { background-position: -340px 0px;display: none; }
-  #glowingLayout span.imageSep { background-position: -374px 0px; display: none;}
-  #glowingLayout span.imageSpace { background-position: -408px 0px;display: none; }
   .compared { float: right; padding: 0em 1em;display: none; }
 
 
-  #glowingLayout {
-  width: 100%;
-  padding: 1%;
-  background-color: #000;
-  position: absolute;
-  position: relative;
-  float: left;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-left: 0;
-  }
 
-    .placetxt{
 
-        font-size:11px;
-    }
-    .imgsize{
+
+
+    /* .imgsize{
         width:80px;
         height:80px;
-
-    }
-    .imgsizeplaces{
+    } */
+    /* .imgsizeplaces{
          width:45px;
         height:40px;
 
-    }
+    } */
     .CurrentlineDiv{
 
         font-size:10px;
