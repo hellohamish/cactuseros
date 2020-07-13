@@ -125,6 +125,15 @@ padding-top: 1%;
   margin-left: 0px;
 }
 
+.barline{
+  font-size: 10px;
+}
+.barlineDivLarge {
+  width: 114px;
+}
+
+.barlineDivExtraLarge {
+  width: 203px;
 }
 
 /* Extra small devices (phones, 600px and down) */
