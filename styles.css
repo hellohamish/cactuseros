@@ -31,6 +31,9 @@ padding-top:1.5%;
 padding-bottom:1.5%;
 }
 
+.barLineDivClear {
+  clear: both;
+}
 
 .barlineDivImg {
 /* height:100%;
@@ -67,7 +70,7 @@ float: left;
   margin:1.7px;
   box-shadow: 5px 5px 4px #191919;
   color:#fc0; */
-  width: 147px;
+  width: 110px;
   /* font-size: 14px; */
 }
 
@@ -84,6 +87,7 @@ float: left;
 
 
 
+
 .barline{
 height:18px;
   border-radius:6px;
@@ -92,7 +96,7 @@ height:18px;
   box-shadow: 5px 5px 4px #191919;
   color:#fc0;
   float: left;
-  font-size: 14px;
+  font-size: 9pt;
 }
 
   .barlineDivScnd{
@@ -649,12 +653,14 @@ background-size: cover;
 
 .compared { float: right; padding: 0em 1em; }
 
-/* .CollectionStartsHolder {
-width: 85%;
+.CollectionStartsHolder {
+/* width: 85%;
 height: 97%;
 left: 50%;
-transform: translateX(-50%);
+transform: translateX(-50%); */
+display: inline;
 }
+/*
 .CollectionStartsHolder{
 width: 76%;
 position: relative;
@@ -692,6 +698,10 @@ height: 22vw;
 padding: 2%;
 }
 
+.alignCenter {
+  text-align: center;
+}
+
 .FeaturedCollector {
 position: relative;
 float: left;
@@ -699,11 +709,48 @@ padding: 10px;
 height: 100%;
 }
 
+.FeaturedCollectorOverlay {
+  padding-bottom:5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color:#333;
+  width:429px;
+  filter:alpha(opacity=82);
+  opacity:0.82;
+  text-decoration:none;
+  font-weight: normal;
+  font-size:9pt;
+  color: #FFF;
+
+}
+
+.FeaturedCollectorOverlay p {
+  margin-bottom: 0px;
+}
+
+.FeaturedCollectorOverlay a {
+  font-size:11pt;
+  font-weight: bold;
+  color: #FFF;
+}
+
+
+.FeaturedCollectorImage {
+  width: 143px;
+  height:143px;
+}
+
+.RedBorder {
+  border: 4px solid #a02020;
+}
+
 .CollectorsByCountry {
   float: left;
   padding: 10px;
-  max-width: 264px;
+  max-width: 230px;
 }
+
 .CollectorsByPoints {
   float: left;
   padding: 10px;

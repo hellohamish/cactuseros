@@ -125,11 +125,39 @@ padding-top: 1%;
   margin-left: 0px;
 }
 
-.barline{
+.FeaturedCollector {
+  float: none;
+  display: inline-block;
+}
+
+.FeaturedCollectorImage {
+  width: 64px;
+  height: 64px;
+}
+
+.FeaturedCollectorOverlay {
+  padding-bottom:5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color:#333;
+  width:192px;
+}
+  .CollectorsByCountry {
+      float: none;
+      display: inline-block;
+  }
+
+  .CollectorsByPoints {
+      float: none;
+      display: inline-block;
+  }
+  
+.barline {
   font-size: 10px;
 }
 .barlineDivLarge {
-  width: 114px;
+  width: 104px;
 }
 
 .barlineDivExtraLarge {
