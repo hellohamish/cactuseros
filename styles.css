@@ -36,15 +36,7 @@ padding-bottom:1.5%;
 }
 
 .barlineDivImg {
-/* height:100%;
-  border-radius:6px;
-float: left;
-  background-color:#28391f;
-  margin:1.7px;
-  box-shadow: 5px 5px 4px #191919;
-  color:#fc0; */
   width: 36px;
-
   border-color:black;
   border:double;
   background-repeat: no-repeat;
@@ -52,44 +44,18 @@ float: left;
   border-color:#28391f;
 }
 .barlineDivMedium {
-/*
-  border-radius:6px;
-float: left;
-  background-color:#28391f;
-  margin:1.7px;
-  box-shadow: 5px 5px 4px #191919;
-  color:#fc0; */
   width: 50px;
-  /* font-size: 14px; */
 }
 .barlineDivLarge {
-/*
-  border-radius:6px;
-float: left;
-  background-color:#28391f;
-  margin:1.7px;
-  box-shadow: 5px 5px 4px #191919;
-  color:#fc0; */
   width: 110px;
-  /* font-size: 14px; */
 }
 
 .barlineDivExtraLarge {
-  /* border-radius:6px;
-float: left;
-  background-color:#28391f;
-  margin:1.7px;
-  box-shadow: 5px 5px 4px #191919;
-  color:#fc0; */
   width: 243px;
-  /* font-size: 14px; */
 }
 
-
-
-
 .barline{
-height:18px;
+  height:18px;
   border-radius:6px;
   background-color:#28391f;
   margin:1.7px;
@@ -99,41 +65,41 @@ height:18px;
   font-size: 9pt;
 }
 
-  .barlineDivScnd{
 
-    height:22px;
-    border-radius:3px;
-
-    background-color:#28391f;
-    margin:1.7px;
-    box-shadow: 5px 5px 4px #191919;
-    color:#fc0;
-
+.tallBarlineDivImg {
+  width: 36px;
+  border-color:black;
+  border:double;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color:#28391f;
 }
 
-  .barlineDivScndRight{
-
-    height:22px;
-    border-bottom-right-radius:3px;
-    border-top-right-radius:3px;
-
-    background-color:#28391f;
-    margin:1.7px;
-    box-shadow: 5px 5px 4px #191919;
-    color:#fc0;
-
+.tallBarlineDivLarge {
+  width: 340px;
 }
-  .barlineDivScndLeft{
 
-    height:22px;
-    border-bottom-left-radius:3px;
-    border-top-left-radius:3px;
+.tallBarline{
+  height:38px;
+  border-radius:6px;
+  background-color:#28391f;
+  margin:1.7px;
+  box-shadow: 5px 5px 4px #191919;
+  color:#fc0;
+  float: left;
+  font-size: 8pt;
+  text-align: left;
+}
 
-    background-color:#28391f;
-    margin:1.7px;
-    box-shadow: 5px 5px 4px #191919;
-    color:#fc0;
+.tallBarline a {
+  color:white;
+}
 
+.barLineSmallText {
+  font-size: 7pt;
+}
+.centerSectionHolder {
+ display: inline-block;
 }
 
    .CurrentlineDiv{
@@ -757,6 +723,17 @@ height: 100%;
   max-width: 364px;
 }
 
+.RecentActivity {
+  float: left;
+  padding: 10px;
+  max-width: 476px;
+}
+
+.RecentComments {
+  float: left;
+  padding: 10px;
+  max-width: 476px;
+}
 
 
 .CollectionStartsRight {
@@ -1005,10 +982,10 @@ width: 100%!important;
     font-size: 5vw!important;
 
     }
-    .barlineDivScnd{
+    /* .barlineDivScnd{
         font-size:15px;
 
-    }
+    } */
     .sepaForMobil {
     display: block;
     width: 100%;
