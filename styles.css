@@ -70,9 +70,14 @@ padding-bottom:1.5%;
   width: 36px;
   border-color:black;
   border:double;
-  background-repeat: no-repeat;
   background-size: cover;
   border-color:#28391f;
+}
+
+.tallBarlineDivImg img {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
 }
 
 .tallBarlineDivLarge {
@@ -519,7 +524,7 @@ min-height:366px;
 max-width: 497px;
 float: left;
 margin-top: 10px;
-margin-left: 2%;
+margin-left: 10px;
 }
 
 .leader {
@@ -558,11 +563,25 @@ color: #FFCC00;
 
 .countdown {
 margin-top: 20px;
-margin-left: 2%;
+margin-left: 10px;
 font-weight: bold;
 /* clear: left; */
-height: 67px;
+min-height: 67px; 
 float: left;
+min-width: 280px;
+}
+.countdownTimer {
+  width: 280px;
+  float:left;
+
+}
+
+.countdownText {
+
+font-weight: normal;
+max-width: 613px;
+float: left;
+text-align: left;
 }
 
 
@@ -603,7 +622,7 @@ background-size: cover;
  .lastWinner {
  /* margin-top: 20px; */
      margin-top: 10px;
- margin-left: 2%;
+ margin-left: 10px;
  /* font-weight: bold; */
  height: 67px;
  float: left;
@@ -959,7 +978,7 @@ width: 100%!important;
 
     .percentageeCircleHolder {
     width: 100%;
-    height: 8vw;
+    height: 80px;
     margin-bottom: 2%;
     margin-top:3%;
     }

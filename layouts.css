@@ -25,11 +25,28 @@
   .img-overlay p, .img-overlay h4 {
     width: 100%
   } */
+
+  .percentageeCircleHolder {
+  height: 50px;
+}
   .tallBarline {
       height: 52px;
   }
   .tallBarlineDivLarge {
       width: 246px;
+  }
+
+  .lastWinner {
+    float: none;
+    display: inline-block;
+  }
+  .leaderContainer {
+    float: none;
+    display: inline-block;
+  }
+  .countdown {
+    float: none;
+    display: inline-block;
   }
 }
 
@@ -227,6 +244,13 @@ padding-top: 1%;
   margin-right: 2%;;
   float: left;
   width: 64px;
+  }
+
+  .tallBarline {
+      height: 62px;
+  }
+  .tallBarlineDivLarge {
+      width: 189px
   }
 
 
