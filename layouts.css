@@ -144,8 +144,10 @@ padding-top: 1%;
   grid-template-rows: auto;
   grid-auto-columns: calc(70px);
 }
+
 .imageHolderContents {
   margin-left: 0px;
+  clear: both;
 }
 
 .FeaturedCollector {
