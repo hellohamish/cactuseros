@@ -48,9 +48,11 @@ padding-bottom:1.5%;
   background-size: cover;
   border-color:#28391f;
 }
+
 .barlineDivMedium {
   width: 50px;
 }
+
 .barlineDivLarge {
   width: 110px;
 }
@@ -168,6 +170,7 @@ position: relative;
 float: left;
 width: 37%;
 height: 100%;
+min-width: 434px;
 }
 
 .CollectionStartsMobile {
@@ -187,15 +190,19 @@ display: none;
 position: relative;
 float: left;
 width: 100%;
-height: 9vw;
+/* height: 9vw; */
+min-height: 119px;
 }
 
 .logoImage {
 float: left;
 position: relative;
-height: 90%;
+max-height: 100%;
+max-width: 90%;
+
+/* height: 90%;
 top: 50%;
-transform: translateY(-50%);
+transform: translateY(-50%); */
 }
 /*.twitter-follow-button{
     position: static; visibility: visible; width: 133px; height: 20px;
@@ -204,9 +211,10 @@ transform: translateY(-50%);
 }*/
 .topBarRightContant {
 position: relative;
-float: left;
-width: 63%;
-height: 100%;
+float: right;
+/* width: 63%; */
+width: 250px;
+height: 100px;
 }
 /*
 .buttonsHolder {
@@ -223,9 +231,9 @@ float: left;
 }
 
 .loginButtons {
-  height: 100%;
-  max-height: 40px !important;
-  margin-top: 7px;
+height: 27px;
+margin-bottom: 19px;
+margin-top: 7px;
 background-color: #ff8a00;
 width: 22%;
 position: relative;
@@ -235,7 +243,7 @@ text-decoration: none;
 border-radius: 0.3em;
 margin-left: 1%;
 top: 20%;
-transform: translateY(-50%);
+/* transform: translateY(-50%); */
 text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25);ß
 background-position: 0 0;
 background-image: linear-gradient(to bottom, #f5c892, #ff8a00);
@@ -260,7 +268,8 @@ position: relative;
 float: right;
 width: 100%;
 height: 30%;
-top: 10%;
+/* top: 10%; */
+margin-right: 3px;
 }
 
 .languageLinks {
@@ -279,8 +288,8 @@ float: right;
 padding: 0.4%;
 background-color:#3b5998 ;
 border-radius: 0.3em;
-top: 50%;
-transform: translateY(-50%);
+/* top: 50%;
+transform: translateY(-50%); */
 margin-right: 1%;
 color:white;
 }
@@ -289,9 +298,24 @@ color:white;
 position: relative;
 float: right;
 margin: 0.5%;
-top: 50%;
-transform: translateY(-50%);
+/* top: 50%;
+transform: translateY(-50%); */
 }
+
+.facebook {
+  float: right;
+  margin-right: 3px;
+}
+
+.facebookLogin {
+  /* margin-top: -5%; */
+  margin-top: -16px;
+}
+.twitter {
+  float: right;
+  margin-right: 3px;
+}
+
 .carousel-inner img{
     height:270px;
 }
@@ -942,10 +966,11 @@ width: 100%!important;
 
 .buttonsHolder {
     position: relative;
-    height: 34%;
-    width: 91%;
+    height: 44px;
+    width: 100%;
     float: right;
-    margin-top: 11px;
+    margin-right: 3px;
+    /* margin-top: 11px; */
 }
 
 
