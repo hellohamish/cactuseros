@@ -336,6 +336,10 @@ width: 20%;
 height: 98%;
 padding: 1%;
 }
+.counter {
+  font-style: italic;
+  font-weight: bold;
+}
 
 .topCarousel, .topIntro {
   width: 46%;
