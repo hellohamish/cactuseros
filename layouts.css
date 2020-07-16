@@ -65,6 +65,9 @@
   font-size: 1.8vw;
 }
 
+
+
+
 /* .topImageHolder {
   height: 55vw;
 } */
@@ -228,9 +231,16 @@ padding-top: 1%;
     /* height: 30%; */
   }
 
+  .topCarousel, .topIntro {
+      width: 89%;
+      float: left;
+      margin-left: 5%;
+    }
+
   .topGreenButons {
-    font-size: 2.5vw!important;
-    width: 49%;
+    /* font-size: 1.5vw!important; */
+        font-size: smaller;
+    width: 48%;
   }
 
   .winplace {

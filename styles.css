@@ -337,7 +337,11 @@ height: 98%;
 padding: 1%;
 }
 
-
+.topCarousel, .topIntro {
+  width: 46%;
+  float: left;
+  margin-left: 2%;
+}
 
 .flex-wrapper {
 display: flex;
@@ -457,20 +461,22 @@ text-anchor: middle;
   position: relative;
   float: left;
   width: 100%;
-  height: 20vw;
+  /* height: 20vw; */
+  min-height: 215px;
   padding: 1% 0% 1% 6%;
 }
 
 .topGreenButons {
   position: relative;
   float: left;
-  width: 24%;
-  height: 30%;
-  top: 50%;
-  margin-right: 1%;
-  transform: translateY(-50%);
+  width: 48%;
+  min-height: 50px;
+  /* top: 50%; */
+  margin: 1%;
+  /* transform: translateY(-50%); */
   color: #000;
   /* font-size: 1.2vw; */
+      font-size: 10pt;
   border: none;
   cursor: pointer;
   border-radius: 0.3em;
@@ -479,7 +485,7 @@ text-anchor: middle;
   color: #fff;
   text-decoration: none;
   border-radius: 0.3em;
-  text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25);ß
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25);
   background-position: 0 0;
   box-shadow: inset 0.08em 0.08em 0.14em rgba(255, 255, 255, 0.5), 0.08em 0.14em 0.2em rgba(0, 0, 0, 0.3);
 }
