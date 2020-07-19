@@ -10,9 +10,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-reboot.css"></script>
 
+<!-- for feedback box -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="layouts.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://hellohamish.github.io/cactuseros/assets/js_0003/countdown/jquery.plugin.min.js"></script>
+    <script type="text/javascript" src="https://hellohamish.github.io/cactuseros/assets/js_0003/jquery.ui.map.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"/>
+    <script src="https://hellohamish.github.io/cactuseros/assets/js_0003/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="https://hellohamish.github.io/cactuseros/assets/css_0002/jquery.modal.min.css" />
+
+
+    <script src="https://hellohamish.github.io/cactuseros/assets/js_0003/sliding-feedback/jquery.feedBackBox_ES.js"></script>
+    <link href="https://hellohamish.github.io/cactuseros/assets/js_0003/sliding-feedback/jquery.feedBackBox.css" rel="stylesheet" type="text/css"> -->
 
 </head>
 <body>
@@ -1148,10 +1166,17 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
           </div> -->
           <div class="countdownTimer">
-            <p>Current contest ends in: </p>
-            <div class="glowingLayout" class="countdown is-countdown">
-              <span class="image1"></span><span class="image6"></span><span class="imageDay"></span><span class="imageSpace"></span><span class="image0"></span><span class="image5"></span><span class="imageSep"></span>
-              <span class="image2"></span><span class="image3"></span><span class="imageSep"></span><span class="image1"></span><span class="image5"></span>
+            <div class="countdownDetails">
+              <div class="competitionTextTitle">RESULTADOS DEL CONCURSO HASTA EL MOMENTO</div>
+              <div class="competitionText">Nota: Los resultados aun no son definitivos, pueden variar de un momento a otro a medida que se vota. Serán definitivos al terminar el último día del mes.<br/></div>
+            </div>
+            <br/>
+            <div class="countdownNow">
+              <div class="competitionTextTitle">Current contest ends in: </div>
+              <div class="glowingLayout" class="countdown is-countdown">
+                <span class="image1"></span><span class="image6"></span><span class="imageDay"></span><span class="imageSpace"></span><span class="image0"></span><span class="image5"></span><span class="imageSep"></span>
+                <span class="image2"></span><span class="image3"></span><span class="imageSep"></span><span class="image1"></span><span class="image5"></span>
+              </div>
             </div>
           </div>
 
@@ -1714,7 +1739,57 @@
 
 
 
+    <!--feedback-form-->
+    	<div id="feedback-form" class="feedback-form">
 
+      	<a href="#" class="feedback-form-btn btn btn-success btn-lg" id="OpenForm">Contacto</a>
+      	<div class="feedback_form_area">
+      	   <div class="feedback_form_area_inner">
+      	      <h3>Give Feedback</h3>
+
+      	       <form>
+
+      	          <div class="form-group">
+      	             <label>Name</label>
+                     <input type="text" id="" class="custom-inp" />
+      	            </div>
+
+                	<div class="form-group">
+                  	<label>Email</label>
+                  	<input type="email" id="" class="custom-inp" />
+                	</div>
+
+                	<div class="form-group">
+                  	<label>Mobile</label>
+                  	<input type="text" id="" class="custom-inp" />
+                	</div>
+
+                	<div class="form-group">
+                  	<label>Query</label>
+                  	<textarea id="" class="custom-inp-txt"></textarea>
+                	</div>
+
+                	<div class="">
+                	   <input type="submit" id="" class="btn btn-success" />
+                	</div>
+
+      	       </form>
+
+      	   </div>
+      	</div>
+
+    	</div>
+
+      <!--feedback-form-->
+      <script>
+        $(document).ready(function(){
+               $("#OpenForm").click(function(){
+                   $(".feedback_form_area").animate({
+                       width: "toggle"
+                   });
+               });
+           });
+      </script>
 
 
     <!-- formulario login -->

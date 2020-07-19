@@ -35,6 +35,27 @@ font-weight: bold;
 }
 
 
+.competitionTextTitle {
+  float:left;
+
+}
+
+.competitionText {
+  font-weight: normal;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.countdownNow {
+  float:left;
+  height: 60px;
+}
+
+.countdownDetails {
+  float: left;
+  max-width: 350px;
+}
+
 .container{
  /* background-color:#b9e0a7; */
  /* background-color:#dfe4c4;
@@ -626,8 +647,9 @@ float: left;
 min-width: 280px;
 }
 .countdownTimer {
-  width: 280px;
-  float:left;
+  width: 80%;
+  float: left;
+text-align: left;
 
 }
 
@@ -643,6 +665,7 @@ text-align: left;
 .glowingLayout {
 width: 78%;
 padding: 1%;
+margin-top: 25px;
 background-color: #000;
 float: left;
 /* left: 50%;
@@ -1425,4 +1448,96 @@ width: 100%!important;
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+
+
+
+
+
+/*feedback_form_area*/
+
+.feedback-form
+{
+	position:fixed;
+	top:15%;
+	right:0;
+	z-index:100;
+	min-height:450px;
+
+}
+
+.feedback-form-show
+{
+	right:0 !important;
+}
+
+.feedback_form_area
+{
+
+	position:relative;
+	display:none;
+	 overflow: hidden;
+	 background:rgba(0,0,0,0.8);
+}
+
+.feedback_form_area_inner
+{
+		width:300px;
+	min-height:450px;
+	color:#fff;
+	padding:15px;
+}
+
+.feedback_form_area h3
+{
+	margin-top:0;
+}
+
+.custom-inp
+{
+	width:100%;
+	height:35px;
+	padding-left:5px;
+	color:#fff;
+	border:1px #fff solid;
+	background:transparent;
+}
+
+.custom-inp-txt
+{
+	width:100%;
+	height:100px;
+	padding:5px;
+	color:#fff;
+	border:1px #fff solid;
+	background:transparent;
+}
+
+.feedback-form-btn
+{
+	position: absolute;
+    left: -81px;
+    color: #fff;
+    transform: rotate(90deg);
+    top: 40%;
+	border-radius:0;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+.feedback_form_area_inner
+{
+		width:260px;
+	min-height:450px;
+	color:#fff;
+	padding:15px;
+}
+}
+
+.mt-50
+{
+    margin-top:50px;
+}
 }
