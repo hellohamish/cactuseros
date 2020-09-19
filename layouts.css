@@ -56,21 +56,10 @@
   display: none;
   }
 
-.languageLinks {
-  /* margin-top: 4%; */
-  /* width: 50%; */
-}
 
 .topGreenButons {
   font-size: 1.8vw;
 }
-
-
-
-
-/* .topImageHolder {
-  height: 55vw;
-} */
 
 .donalelenilsonContent {
 height: 48vw;
@@ -203,7 +192,7 @@ padding-top: 1%;
 .barlineDivExtraLarge {
   width: 203px;
 }
-
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -223,14 +212,6 @@ padding-top: 1%;
     float: right;
     width: 100%;
     height: 50%;
-  }
-  .loginButtons {
-    /* top: 1%;
-    transform: translateY(0%);
-    height: 100%; */
-  }
-  .buttonsHolder {
-    /* height: 30%; */
   }
 
   .topCarousel, .topIntro {
@@ -269,7 +250,4 @@ padding-top: 1%;
 .logoImage {
   max-width: 270px;
 }
-
-
-
 }
