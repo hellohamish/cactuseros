@@ -122,6 +122,10 @@ width: 64px!important;
 height: 100%!important;
 }
 
+.img-wrapLarger {
+width: 143px!important;
+}
+
 /* .nuevas {
 width: 96%;
 height: 50%;
@@ -137,6 +141,10 @@ padding-top: 1%;
 .hs {
   grid-template-rows: auto;
   grid-auto-columns: calc(70px);
+}
+
+.hsLarger {
+grid-auto-columns: calc(150px);
 }
 
 .imageHolderContents {
